@@ -1,0 +1,160 @@
+.quizContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #e0e7ff, #f3e8ff, #dbeafe);
+  font-family: 'Inter', sans-serif;
+  padding: 2rem;
+}
+
+.quizTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4338ca;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.questionCounter {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.questionBox {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.question {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.option {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 12px;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  border-color: #6366f1;
+  background: #eef2ff;
+}
+
+.selected {
+  border-color: #4f46e5;
+  background: #e0e7ff;
+  font-weight: 600;
+  color: #312e81;
+}
+
+.nextButton {
+  padding: 0.8rem 2rem;
+  background: linear-gradient(to right, #7c3aed, #4f46e5);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.nextButton:hover {
+  transform: scale(1.05);
+}
+
+.resultBox {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.resultTitle {
+  font-size: 2rem;
+  color: #16a34a;
+  margin-bottom: 1rem;
+}
+
+.score {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.score span {
+  color: #4338ca;
+}
+
+.studyTitle {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.studyList {
+  list-style: none;
+  padding: 0;
+}
+
+.studyList li {
+  margin: 0.5rem 0;
+}
+
+.studyList a {
+  color: #4f46e5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.studyList a:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}
+
+.backButton {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(to right, #ec4899, #ef4444);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.backButton:hover {
+  transform: scale(1.05);
+}
+
+.loading {
+  font-size: 1.3rem;
+  color: #4b5563;
+}
+

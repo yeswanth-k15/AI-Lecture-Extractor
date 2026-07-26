@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+groq
+yt-dlp
+opencv-python
+pytesseract
+langdetect
+scenedetect
+fpdf
+pydantic
+python-multipart
